@@ -1,0 +1,13 @@
+{
+  "name": "kerasai/drupal-cache-helper",
+  "description": "Utility for handling caching in Drupal.",
+  "type": "library",
+  "require": {
+    "drupal/core": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kerasai\\DrupalCacheHelper\\": "src/"
+    }
+  }
+}
