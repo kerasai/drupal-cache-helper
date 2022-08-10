@@ -146,7 +146,7 @@ class CacheHelper {
    */
   protected function getCacheFactory() {
     if (!$this->cacheFactory) {
-      $this->cacheFactory = \Drupal::service('cache.factory');
+      $this->cacheFactory = \Drupal::service('cache_factory');
     }
     return $this->cacheFactory;
   }
