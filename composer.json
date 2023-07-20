@@ -3,7 +3,7 @@
   "description": "Utility for handling caching in Drupal.",
   "type": "library",
   "require": {
-    "drupal/core": "^9"
+    "drupal/core": "^9.5 || ^10"
   },
   "autoload": {
     "psr-4": {
